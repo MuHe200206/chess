@@ -1,4 +1,8 @@
-
+/* Course: SENG 513 
+Date: OCT 23, 2023 
+Assignment 2
+Name: Mu He
+UCID: 30117178 */
 *{
     margin: 0px;
     font-family: "Playfair Display", sans-serif;
@@ -27,7 +31,7 @@
 .chess{
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .chess-board{
@@ -48,7 +52,7 @@
     margin-left: 600px;
     margin-right: 600px;
     position: relative;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center; 
     height: 70px;
     line-height: 70px;
@@ -131,4 +135,60 @@
     background-position: center;
     background-size: cover;
 }
+
+.restart-button{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    height: 80px;
+    line-height: 80px;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(65, 56, 126);
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.home-button{
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    height: 80px;
+    line-height: 80px;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(65, 56, 126);
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.player-one{
+    position: absolute;
+    color: antiquewhite;
+    left: 250px;
+    top: 120px;
+    height: 80px;
+    line-height: 80px;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+}
+
+.player-two{
+    position: absolute;
+    color: antiquewhite;
+    right: 250px;
+    top: 480px;
+    height: 80px;
+    line-height: 80px;
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+}
+
+
 
