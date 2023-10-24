@@ -1,0 +1,134 @@
+
+*{
+    margin: 0px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.header-background{
+    height: 100px;
+    background-color: #282727;  
+}
+
+.header-text{
+    text-align: center; 
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.game-box{
+    background-color: #2c2c2c;
+    height: 700px;
+}
+
+.chess{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.chess-board{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.white{
+    background-color: #FFF;
+}
+
+.black{
+    background-color: rgb(92, 86, 86);
+}
+
+.begin-button{
+    margin-left: 600px;
+    margin-right: 600px;
+    position: relative;
+    margin-top: 40px;
+    text-align: center; 
+    height: 70px;
+    line-height: 70px;
+    font-size: 36px;
+    background-color: bisque;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.white-king{
+    background-image: url("whiteking.png");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.black-king{
+    background-image: url("blackking.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-queen{
+    background-image: url("whitequeen.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.black-queen{
+    background-image: url("blackqueen.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-bishop{
+    background-image: url("whitebishop.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.black-bishop{
+    background-image: url("blackbishop.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-knight{
+    background-image: url("whiteknight.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.black-knight{
+    background-image: url("blackknight.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-rook{
+    background-image: url("whiterook.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.black-rook{
+    background-image: url("blackrook.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.white-pawn{
+    background-image: url("whitepawn.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.black-pawn{
+    background-image: url("blackpawn.png");
+    background-position: center;
+    background-size: cover;
+}
+
