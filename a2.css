@@ -8,6 +8,7 @@ UCID: 30117178 */
     font-family: "Playfair Display", sans-serif;
 }
 
+/* header */
 .header-background{
     height: 100px;
     background-color: #282727;  
@@ -28,6 +29,7 @@ UCID: 30117178 */
     height: 700px;
 }
 
+/* chess and chess board */
 .chess{
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +50,7 @@ UCID: 30117178 */
     background-color: rgb(92, 86, 86);
 }
 
+/* begin button */
 .begin-button{
     margin-left: 600px;
     margin-right: 600px;
@@ -63,6 +66,7 @@ UCID: 30117178 */
     cursor: pointer;
 }
 
+/* chess pieces */
 .white-king{
     background-image: url("whiteking.png");
     background-position: center;
